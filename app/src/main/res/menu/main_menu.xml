@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon = "@drawable/call"
+        android:id="@+id/call"
+        android:title="Вызов"
+        android:checked="true" />
+    <group android:checkableBehavior="single">
+        <item
+            android:icon = "@drawable/camera"
+            android:id="@+id/camera"
+            android:title="Камера"
+            android:checked="true" />
+        <item
+            android:icon = "@drawable/video"
+            android:id="@+id/video"
+            android:title="Видео" />
+
+    </group>
+    <item
+        android:icon = "@drawable/email"
+        android:id="@+id/email"
+        android:title="Почта"
+        android:checked="true" />
+    <item
+        android:icon = "@drawable/add"
+        android:id="@+id/add"
+        android:title="Добавить"
+        android:checked="true" />
+    <item
+        android:icon = "@drawable/copy"
+        android:id="@+id/copy"
+        android:title="Скопировать"
+        android:checked="true" />
+    <item
+        android:icon = "@drawable/paste"
+        android:id="@+id/paste"
+        android:title="Вставить"
+        android:checked="true" />
+    <item
+        android:icon = "@drawable/help"
+        android:id="@+id/help"
+        android:title="Помощь"
+        android:checked="true" />
+</menu>
